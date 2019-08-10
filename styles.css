@@ -21,7 +21,7 @@ body {
 
 .quali,
 .race {
-  width: 20%;
+  width: 21%;
   display: inline-block;
 }
 
@@ -33,6 +33,11 @@ body {
 #timeline {
   margin-top: 1rem;
   text-align: center;
+}
+
+.legend-align {
+  position: relative;
+  top: -5px;
 }
 
 .car {
