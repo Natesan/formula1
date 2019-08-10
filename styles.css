@@ -1,0 +1,191 @@
+body {
+  background: #f5f5f6;
+}
+
+#ferrari {
+  color: red;
+}
+
+#redbull {
+  color: blue;
+}
+
+#mercedez {
+  color: silver;
+}
+
+.fp {
+  width: 17%;
+  display: inline-block;
+}
+
+.quali,
+.race {
+  width: 20%;
+  display: inline-block;
+}
+
+.finish {
+  width: 5%;
+  display: inline-block;
+}
+
+#timeline {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.car {
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier();
+}
+
+.no-session {
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.ultraslow-session {
+  animation-duration: 4.5s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.slow-session {
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.standard-session {
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.mega-session {
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+#redbull.fp1 {
+  animation-name: fp1-standard;
+}
+
+#redbull.fp2 {
+  animation-name: fp2-standard;
+}
+
+#redbull.fp3 {
+  animation-name: fp3-standard;
+}
+
+#redbull.quali {
+  animation-name: quali-standard;
+}
+
+#redbull.race {
+  animation-name: race-standard;
+}
+
+#ferrari.fp1 {
+  animation-name: fp1-standard;
+}
+
+#ferrari.fp2 {
+  animation-name: fp2-standard;
+}
+
+#ferrari.fp3 {
+  animation-name: fp3-standard;
+}
+
+#ferrari.quali {
+  animation-name: quali-ferrari;
+}
+
+#ferrari.race {
+  animation-name: race-standard;
+}
+
+#mercedez.fp1 {
+  animation-name: fp1-standard;
+}
+
+#mercedez.fp2 {
+  animation-name: fp2-standard;
+}
+
+#mercedez.fp3 {
+  animation-name: fp3-standard;
+}
+
+#mercedez.quali {
+  animation-name: quali-standard;
+}
+
+#mercedez.race {
+  animation-name: race-standard;
+}
+
+@keyframes fp1-standard {
+  from {
+    margin-left: 0%;
+  }
+
+  100% {
+    margin-left: 17%;
+  }
+}
+
+@keyframes fp2-standard {
+  from {
+    margin-left: 17%;
+  }
+  to {
+    margin-left: 34%;
+  }
+}
+
+@keyframes fp3-standard {
+  from {
+    margin-left: 34%;
+  }
+  to {
+    margin-left: 51%;
+  }
+}
+
+@keyframes quali-standard {
+  from {
+    margin-left: 51%;
+  }
+  to {
+    margin-left: 72%;
+  }
+}
+
+@keyframes quali-ferrari {
+  from {
+    margin-left: 51%;
+  }
+  to {
+    margin-left: 62%;
+  }
+}
+
+@keyframes race-standard {
+  from {
+    margin-left: 72%;
+  }
+  to {
+    margin-left: 94%;
+  }
+}
